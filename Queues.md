@@ -1,18 +1,19 @@
-= Queueing theory =
+# Queueing theory
 
 Much of this is pulled from The Art of Computer Systems Performance Analysis
 
-== Open and Closed Queues ==
+## Open and Closed Queues
+
 * Open Queues have external arrivals and departures
 * Closed queues have no external arrivals or departures.
 
-== Operational Laws ==
+## Operational Laws
 
-=== Utilization law ===
+### Utilization Law
 
-utilization = busy_time/T = completions/T * busy_time/completions
+ utilization = busy_time/T = completions/T * busy_time/completions 
 
-=== Little's Law ===
+### Little's Law
 
 total number in queue = arrival rate * mean time in device
 
@@ -27,3 +28,5 @@ Given a queue with a throughput of 35.84 and an average queue length of 8.88 the
 the response time of the processor is:
 
 8.88/35.84 = ~0.25 seconds
+
+
