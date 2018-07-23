@@ -1,3 +1,4 @@
 # Knowledge base
   * [[Queues]]
-  * [[Story File]]
+  * [vimwiki](vimwiki)
+
